@@ -1,0 +1,102 @@
+.bodyclass{
+    background:linear-gradient(to right , rgba(241, 221, 39, 0.479) , rgba(255, 255, 0, 0.719) , rgba(229, 255, 0, 0.301));
+}
+
+
+/*styling the box*/
+
+.boxclass{
+    position:absolute;
+    top:150px;
+    left: 700px;
+    width:400px;
+    height:600px;
+    border:2px solid rgb(129, 156, 206);
+    border-top:none;
+    background-color: rgba(187, 205 , 238 , .5);
+}
+
+/*styling the start button*/
+
+.buttonclass{
+    top:450px;
+    left:200px;
+    border-radius:10px;
+    font-size:x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border:none;
+    position:absolute;
+    font-weight:bold;
+    color:white;
+    background-color:rgba(224, 112, 67,.7);
+    padding-top: 10px;
+    padding-bottom:40px;
+    padding-left:5px;
+    padding-right:5px;
+    width:100px;
+    height:40px;
+    text-align:center;
+}
+
+.buttonclass:hover{
+    opacity: 0.5;
+    cursor:pointer;
+}
+
+/*styling the static icons*/
+
+.singleemojiclass{
+    
+    margin:5px;
+    font-size:70px;
+    
+}
+.emojidiv{
+
+    position:absolute;
+    top:150px;
+    left:50px;
+    
+}
+
+/*styling the count*/
+
+.countdiv{
+    position:absolute;
+    top:300px;
+    left:42.5px;
+}
+
+.singlecountclass{
+    font-size:100px;
+    margin-left:30px;
+    margin-right:30px;
+    opacity:.8;
+}
+
+.movingemojis{
+    position:absolute;
+    /*left:700px;*/
+    top:100px;
+}
+
+.welcome{
+    position:absolute;
+    top:70px;
+    left:100px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+    color :rgba(224, 112, 67,.7);
+}
+
+.timer{
+    border-radius: 5px;
+    margin-top:50px;
+    background-color: rgba(196, 108, 108, .5);
+    position:absolute;
+    top:500px;
+    font-size:50px;
+    left:190px;
+    padding:10px;
+}
